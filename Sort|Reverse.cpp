@@ -5,9 +5,6 @@ Output:
 1 3 3 5 7
 3 5 3 7 1   */
 
-
-#include <bits/stdc++.h>
-using namespace std;
 vector<int> sortVector(vector<int> v) {
     sort(v.begin(), v.end());  // Sorting in ascending order
     return v;
